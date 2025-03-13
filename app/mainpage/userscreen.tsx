@@ -42,7 +42,7 @@ export default function UserScreen() {
         "Content-Type": "application/json"
       },
       data: {
-        url: 'https://www.thairath.co.th/news/politic/28422'
+        url: 'https://www.thairath.co.th/news/crime/2846849'
         //url: url
       },
     })
@@ -72,7 +72,7 @@ export default function UserScreen() {
          <div className="flex h-[100vh] w-full flex-col items-center justify-start bg-black">
           <div className="flex h-[10vh] w-full flex-row items-center justify-start bg-white pl-5">
            <div className="flex flex-row h-full w-[30vh] items-center justify-start bg-white text-2xl">Please enter URL</div>
-           <div className="flex flex-row h-full w-full items-center justify-start bg-yellow-200 text-2xl border border-solid border-blue mr-5"><input type="text" name="url" className="h-full w-full text-4xl" value="https://www.thairath.co.th/news/politic/28422" onChange={handleOnChange} /></div>
+           <div className="flex flex-row h-full w-full items-center justify-start bg-yellow-200 text-2xl border border-solid border-blue mr-5"><input type="text" name="url" className="h-full w-full text-4xl" value="https://www.thairath.co.th/news/crime/2846849" onChange={handleOnChange} /></div>
            <div className="flex flex-row h-full w-[20vh] items-center justify-center bg-white text-2xl"><input type="button" value="OK" className="bg-amber-700 p-2 rounded-xl h-1/2 w-1/2" onClick={handleSubmit} /></div>
           </div>
           <div className="flex h-[90vh] w-full flex-row items-start justify-center bg-white">
