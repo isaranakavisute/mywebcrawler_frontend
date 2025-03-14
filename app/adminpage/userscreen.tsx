@@ -84,7 +84,7 @@ export default function UserScreen() {
                   //   <td className="border-1 border-solid border-black w-1/4"><div>{post.myemail}</div></td>
                   // </tr>
 
-                  <div className="flex flex-row w-full bg-amber-100">
+                  <div className="flex flex-row w-full bg-amber-100" key={post.Id}>
                    <div className="border-1 border-solid border-black w-1/4 pl-2">{post.Id}</div>
                    <div className="border-1 border-solid border-black w-1/4 pl-2">{post.myusername}</div>
                    <div className="border-1 border-solid border-black w-1/4 pl-2">{post.mypassword}</div>
