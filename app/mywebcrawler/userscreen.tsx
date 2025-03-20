@@ -24,7 +24,7 @@ export default function UserScreen() {
 
     axios({
      method: "POST",
-     url: "http://127.0.0.1:3005/login",
+     url: "http://54.255.192.2:3005/login",
      headers: {
       "Content-Type": "application/json"
      },
